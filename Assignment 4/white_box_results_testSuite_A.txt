@@ -1,0 +1,138 @@
+Test 1
+X = []
+Y = []
+updates = []
+Distance = 0
+
+Test 2
+X = []
+Y = [(1, 2)]
+updates = [('insert', 0, (1, 2))]
+Distance = 1
+
+Test 3
+X = [(1, 2)]
+Y = []
+updates = [('delete', 1)]
+Distance = 1
+
+Test 4
+X = [(1, 2)]
+Y = [(1, 2)]
+updates = []
+Distance = 0
+
+Test 5
+X = [(1, 2)]
+Y = [(2, 3)]
+updates = [('replace', 1, (2, 3))]
+Distance = 1
+
+Test 6
+X = []
+Y = []
+updates = []
+Distance = 0
+
+Test 7
+X = []
+Y = [(1, 2)]
+updates = [('insert', 0, (1, 2))]
+Distance = 1
+
+Test 8
+X = [(1, 2)]
+Y = []
+updates = [('delete', 1)]
+Distance = 1
+
+Test 9
+X = [(1, 2)]
+Y = [(1, 2)]
+updates = []
+Distance = 0
+
+Test 10
+X = [(1, 2)]
+Y = [(1, 3)]
+updates = [('replace', 1, (1, 3))]
+Distance = 1
+
+Test 11
+X = [(1, 2), (3, 4)]
+Y = [(1, 2)]
+updates = [('delete', 2)]
+Distance = 1
+
+Test 12
+X = [(1, 2)]
+Y = [(1, 2), (3, 4)]
+updates = [('insert', 1, (3, 4))]
+Distance = 1
+
+Test 13
+X = []
+Y = []
+updates = []
+Distance = 0
+
+Test 14
+X = []
+Y = [(1, 2)]
+updates = [('insert', 0, (1, 2))]
+Distance = 1
+
+Test 15
+X = [(1, 2)]
+Y = []
+updates = [('delete', 1)]
+Distance = 1
+
+Test 16
+X = [(1, 2)]
+Y = [(1, 2)]
+updates = []
+Distance = 0
+
+Test 17
+X = [(1, 2)]
+Y = [(2, 3)]
+updates = [('replace', 1, (2, 3))]
+Distance = 1
+
+Test 18
+X = [(1, 2), (3, 4)]
+Y = [(1, 2)]
+updates = [('delete', 2)]
+Distance = 1
+
+Test 19
+X = [(1, 2)]
+Y = [(1, 2), (3, 4)]
+updates = [('insert', 1, (3, 4))]
+Distance = 1
+
+Test 20
+X = [(1, 2), (3, 4)]
+Y = [(1, 2), (3, 5)]
+updates = [('replace', 2, (3, 5))]
+Distance = 1
+
+Test 21
+X = [(3, 4), (1, 2)]
+Y = [(3, 5), (1, 2)]
+updates = [('replace', 1, (3, 5))]
+Distance = 1
+
+Test 22
+X = [(1, 2), (3, 4), (5, 6)]
+Y = [(1, 2), (3, 5), (5, 6)]
+updates = [('replace', 2, (3, 5))]
+Distance = 1
+
+Test 23
+X = [(1, 2), (3, 6), (2, 5), (4, 4)]
+Y = [(1, 6), (3, 4), (2, 5)]
+updates = [('replace', 1, (1, 6)), ('replace', 2, (3, 4)), ('delete', 4)]
+Distance = 3
+
