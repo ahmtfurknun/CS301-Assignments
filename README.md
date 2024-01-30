@@ -1,3 +1,4 @@
+# CS301 - Algorithms
 ### Course description: 
 This course is about the analysis and design of computer algorithms. We will study various methods to analyze the correctness and asymptotic performance of algorithms, important algorithms (e.g., search, sort, path finding, spanning tree, network flow) and data structures (e.g., dynamic sets, augmented data structures), algorithmic design paradigms (e.g., randomized, divide-and-conquer, dynamic programming, greedy, incremental), and hardness of problems (e.g., NP-completeness, reductions, approximation algorithms).
 
